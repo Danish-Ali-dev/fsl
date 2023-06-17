@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    font-size: 15px;
+}
+
+.name-img{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.player_img{
+    height: 150px;
+    width: 130px
+}
+
+.player-detail{
+    font-size: 1em;
+}
+
+.name{
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-info{
+    background-color: #F5F5F5;
+    width: 30%;
+    padding-top: 15px;
+    font-family: 'Balthazar', serif;
+    font-size: 1.2em;
+}
+
+.p-info{
+    padding: 10px 2px;
+}
+
+.player-summary{
+    width: 67%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.overall{
+    font-family: 'Balthazar', serif;
+    font-size: 1.4em;
+}
+
+.number-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 650px)
+{
+    .body{
+        font-size: 10px;
+    }
+    .all-pg{
+        padding: 2px;
+    }
+    .personal-info{
+        width: 33%;
+        font-size: 0.8em;
+    } 
+    .player-summary{
+        width: 65%;
+        font-size: 0.8em;
+    }
+    .player-detail{
+        font-size: 0.2em;
+    }
+    .overall{
+        font-size: 1em;
+    }
+    .name{
+        padding-left: 20px;
+    }
+    .fs-small{
+        font-size: 9px;
+    }
+}
